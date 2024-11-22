@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>CheerpJ test</title>
+    <script src="https://cjrtnc.leaningtech.com/3.0/cj3loader.js"></script>
+    <style>
+        html, body {
+    margin: 0;
+    height: 100%;
+}
+    </style>
+  </head>
+  <body>
+    <script>
+      (async function () {
+        await cheerpjInit();
+        cheerpjCreateDisplay(-1, -1, document.body);
+        await cheerpjRunMain(
+            "javaoceanatlas.PowerOceanAtlas", "/app/JOA5.jar:/app/lib/HTTPClient.jar:/app/lib/JOA5.jar:/app/lib/MRJToolkitStubs.jar:/app/lib/OpenForecast-0.4.0.jar:/app/lib/commons-io-1.4.jar:/app/lib/gnujaxp.jar:/app/lib/jackson-core-2.1.0.jar:/app/lib/jcommon-0.9.1.jar:/app/lib/jfreechart-0.9.16.jar:/app/lib/json-rpc-1.0.jar:/app/lib/netcdf21Dods.jar:/app/lib/netcdfAll-4.6.jar:/app/lib/noaa_pmel.jar:/app/lib/opencsv-2.3.jar:/app/lib/pmel-library.jar:/app/lib/png.jar:/app/lib/quaqua.jar:/app/lib/servlet.jar:/app/lib/xml4j_1_1_16.jar");
+      })();
+    </script>
+  </body>
+</html>
